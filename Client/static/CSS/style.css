@@ -1,0 +1,18 @@
+#body{
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 10%;
+}
+
+.modal-backdrop {
+    /* bug fix - no overlay */    
+    display: none;    
+}
+
+#message{
+    height: 400px;
+}
+
+#msg-grid-box{
+    overflow: auto;
+    height: 300px;
+}
